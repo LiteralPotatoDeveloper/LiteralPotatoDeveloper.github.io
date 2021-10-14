@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style type="text/css">
+   body{
+      background-color:rgb(50,50,50);
+      color:white
+   }
+   a{
+      color:rgb(210,210,255)
+   }
+   img{
+      margin: 15px 15px 15px 15px
+   }
+   hr{
+      border-top: 1px solid gray;
+   }
+   .infotd{
+     vertical-align:top
+   }
+ </style>
+</head>
+
+<body style="background-color:rgb(50,50,50); color:white">
+<table width= 1000px>
+  <tr>
+    <td class="infotd">
+      <h3>Thomas Savine</h3>
+      <p> I am primarily a C# developer, developing standalone tools to ease workload of manual tasks and 
+      develop modifications for games.
+	  I currently know C# to an intermediate level, with a focus on reverse engineering and reflection,
+	  along with a working knowledge of Python, LUA and Visual Basic, along with the basic web languages
+	  (HTML, CSS and JavaScript).
+	  I am currently learning C++(for my own projects) and Java(as part of university)
+	  In addition to knowing these languages, I am proficient in reversing programs using tools such as
+	  AIDA64 for programs not using .NET and DNSpy/ILSpy for programs using .NET framework, with knowledge on
+	  deobfuscation and ILCode modification.
+	  
+	  I was introduced to programming through LUA in games such as Garrys' Mod and Roblox, which allowed
+	  users to script in the game, creating mods and fun additions to the game.
+      experience before bootcamp).</p> 
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+	<hr>
+    </td>
+  </tr>
+
+ <tr>
+  <td class="infotd">
+    <h3>Bootcamp 2021: Bitcoin Bubbles</h3>
+    <p>
+
+	A recreation of <a href="https://www.bitlisten.com/">BitListen</a> 
+	in Processing created in the Programming Bootcamp (2021) of City, University of London.<br>
+	
+	I tried to incorporate as many skills as I could to demonstrate my programming knowledge
+	into this project, however there are many differences between C# and Java that I still need
+	to learn.<br>
+	These skills include classes, arrays, concurrency, web interactions, data visualization, sounds and more.<br>
+	
+	To do so, I used a WebSocket library to connect to the <a href="https://www.blockchain.com/api/api_websocket">Blockchain API</a>
+	and requested to recieve messages for each unconfirmed transaction and block mined, which provided
+	me with additional information such as the values of transactiosn involved, allowing me to
+	display the data in the form of bubbles, along with playing sounds varying on the value.<br>
+	
+	Bubbles and Blocks are stored in an array to keep track and dispose of objects no longer visible and
+	logarithmic algorithms are used to determine the speed of the bubble, based on value along with the
+	volume and pitch of the sounds (Still experimental).<br>
+	
+	This project also involved minor modifications to a library in order to ensure compatibility, I
+	edited the library to allow for larger text sizes to be recieved by my websocket.<br>
+	
+	This project has proven to be a nice introduction to data visualization and web communication along
+	with helping me learn Java.<br>
+	
+	There are also many improvements that can be made, including bubble collision, optimization and 
+	even potential to become a game to click bubbles to collect bitcoin or view the transaction which
+	can be implemented when I learn more Java<br>
+    </p>
+
+    <p>
+      Check out the code on Github: <a href="https://github.com/LiteralPotatoDeveloper/BitcoinBubbles">https://github.com/LiteralPotatoDeveloper/BitcoinBubbles</a>
+    </p>
+  <td>
+	<video width="429" height="200" controls>
+	<source src="Projects\Previews\BitcoinBubbles\previewvid.mkv" type="video/mp4">
+	</video>
+  <td>
+  </td>
+<tr>
+ <td colspan = 2 align=center>
+	<img src="Projects\Previews\BitcoinBubbles\preview1.png" width="285px">
+	<img src="Projects\Previews\BitcoinBubbles\preview2.png" width="285px">
+	<img src="Projects\Previews\BitcoinBubbles\preview3.png" width="285px">
+ </td>
+</tr>
+ </tr>
+</table>
+</body>
+</html>
